@@ -1,3 +1,5 @@
+[日本語ドキュメントはこちら](README_ja.md)
+
 # SyncListDictionary.cs
 
 This is a script file for Unity. It is useful when you want to display a Dictionary-type variable in the Inspector.
