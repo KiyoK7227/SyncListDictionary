@@ -63,6 +63,7 @@ public class SyncListDictionary<TKey, TValue>
     // データの追加・削除・取得
     public bool Add(TKey key, TValue value)
     {
+        RebuildDictionary();
         if (dictionary.TryAdd(key, value))
         {
 
