@@ -78,6 +78,7 @@ public class SyncListDictionary<TKey, TValue>
 
     public bool Remove(TKey key)
     {
+        RebuildDictionary();
         var removed = dictionary.Remove(key);
 
 #if UNITY_EDITOR // エディタプレイモードでのみリストから削除
